@@ -1,0 +1,57 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    margin-top: 0.4rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 17, 255, 0.315);
+    width: 20rem;
+    height: 30rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font: Tahoma bolder;
+    font-size: 3.5rem;
+    -webkit-text-stroke: 0.2px black;
+    color: white;
+}
+.btn {
+    display: flex;
+    gap: 1rem;
+}
+.deBtn {
+    border-radius: 0.2rem;
+    background: rgba(217, 245, 7, 0.332);
+}
+
+.deBtn:hover {
+    transition: ease-in;
+    cursor: pointer;
+    background: rgba(233, 245, 7, 0.686)
+}
+
+.inBtn {
+    border-radius: 0.2rem;
+    background: rgba(217, 245, 7, 0.332);
+}
+
+.inBtn:hover {
+    transition: ease-in;
+    cursor: pointer;
+    background: rgba(102, 245, 7, 0.686)
+}
+
+#num {
+    font-size: 110px;
+    -webkit-text-stroke: 0.5px black;
+}
